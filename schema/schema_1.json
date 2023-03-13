@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "participantIds": {
+      "type": "string",
+      "enum": [
+        "ABCDEFGHIJKLMNOPQRST",
+        "ABCDEFGHIJKLMNOPQRSTUVWXY"
+      ],
+      "tag": "",
+      "description": "",
+      "required": false
+    }
+  }
+}

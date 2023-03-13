@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "time": {
+      "type": "int",
+      "tag": "",
+      "description": "",
+      "required": false
+    },
+    "acl": {
+      "type": "string",
+      "enum": [],
+      "tag": "",
+      "description": "",
+      "required": false
+    },
+    "internationalCountries": {
+      "type": "string",
+      "enum": [
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+        "ABCDEFGHIJKLMNOPQ",
+        "ABCDEFGHIJKLMNOPQRSTUVW",
+        "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "ABCDEFGHIJK",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "ABCDEFGHIJKLMNOPQR",
+        "ABCDEFG",
+        "ABCDEFGHIJKLM"
+      ],
+      "tag": "",
+      "description": "",
+      "required": false
+    }
+  }
+}
